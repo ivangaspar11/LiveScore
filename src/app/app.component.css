@@ -1,0 +1,141 @@
+/* Add the following CSS styles to your component's CSS file or global styles */
+.toolbar{
+  font-weight: bold;
+  justify-content: start;
+  align-items: center;
+  font-size: 30px;
+}
+ .table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(1500px, 1fr));
+  gap: 20px;
+  justify-items: center; /* Center the grid items horizontally */
+  align-items: center;
+
+  
+}
+
+
+.grid-item {
+  width: 100%;
+  max-width: 70%;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+
+.mat-expansion-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  height: 60px;
+  padding: 10px; 
+}
+
+.team-info {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: start;
+}
+.team-away{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: end;
+}
+
+.team-info img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.team-away img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.result-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: center;
+
+
+}
+
+.result {
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  flex-grow: 1;
+  color:red;
+  
+}
+
+
+.elapsed-time {
+  font-size: 18px;
+  color: red;
+  
+ align-items: center;
+  
+}
+.apostrophe{
+ font-weight: bold;
+  animation: fade-in-out 2s infinite;
+}
+@keyframes fade-in-out {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+  
+}
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-item-home {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.event-item-away {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.home,
+.away {
+  margin-left: 5px;}
+
+
+
+
+
+
